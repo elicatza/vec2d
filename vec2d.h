@@ -35,6 +35,7 @@ VEC2DDEF void vec2d_print(Vec2d vec, const char *name);
 
 #ifdef VEC2D_IMPLEMENTATION  /* Implementation goes here */
 #include <math.h>
+#include <stdio.h>
 
 VEC2DDEF Vec2d vec2d_add(Vec2d u, Vec2d v)
 {
